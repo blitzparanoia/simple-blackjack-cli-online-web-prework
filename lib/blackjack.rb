@@ -56,7 +56,7 @@ def invalid_command
       invalid_command
     end
   end
-end	end
+end
 end
 
 #####################################################
