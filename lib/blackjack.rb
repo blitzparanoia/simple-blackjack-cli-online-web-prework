@@ -37,8 +37,9 @@ def initial_round
   return total_card
   end
 
-def hit?
+def hit?(card_total)
   # code hit? here
+  
 end
 
 def invalid_command
