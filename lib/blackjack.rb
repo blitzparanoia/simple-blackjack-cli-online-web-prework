@@ -35,7 +35,8 @@ def initial_round
   total_card = first_card + second_card
   display_card_total = (total_card)
   return total_card
-end
+  puts "#{card_total}"
+  end
 
 def hit?
   # code hit? here
