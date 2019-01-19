@@ -35,7 +35,7 @@ def initial_round
   total_card = first_card + second_card
   display_card_total = (total_card)
   return total_card
-  puts "#{card_total}"
+  puts "#Your cards add up to #{total_card}"
   end
 
 def hit?
