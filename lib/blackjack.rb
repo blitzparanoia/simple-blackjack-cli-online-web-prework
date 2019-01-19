@@ -39,11 +39,6 @@ def initial_round
 
 def hit?(card_total)
   # code hit? here
-  
-end
-
-def invalid_command
-  # code invalid_command here
   loop do
     prompt_user
     users_input = get_user_input
@@ -56,6 +51,11 @@ def invalid_command
       invalid_command
     end
   end
+end
+
+def invalid_command
+  # code invalid_command here
+  
 end
 
 #####################################################
