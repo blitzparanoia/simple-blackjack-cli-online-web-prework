@@ -44,6 +44,19 @@ end
 
 def invalid_command
   # code invalid_command here
+  loop do
+    prompt_user
+    users_input = get_user_input
+    if users_input == "h"
+      another_card = deal_card
+      return card_total += another_card
+    elsif users_input == "s"
+      return card_total
+    else
+      invalid_command
+    end
+  end
+end	end
 end
 
 #####################################################
