@@ -33,6 +33,7 @@ def initial_round
   first_card = deal_card
   second_card = deal_card
   total_card = first_card + second_card
+  total_card = 
   puts "Your cards add up to #{deal_card}"
 end
 
