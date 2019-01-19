@@ -39,7 +39,7 @@ def initial_round
 
 def hit?
   # code hit? here
-  get.chomps
+  gets.chomp
 end
 
 def invalid_command
